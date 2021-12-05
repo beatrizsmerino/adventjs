@@ -35,4 +35,5 @@ export default function contarOvejas(ovejas) {
 }
 ```
 
-[Solution 1](./solution-1/js/script.js)
+[Solution 1](./solution-1/js/script.js)  
+[Solution 2](./solution-2/js/script.js)
