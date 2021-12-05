@@ -38,3 +38,5 @@ export default function listGifts(letter) {
 	return {};
 }
 ```
+
+[Solution](./js/script.js)

@@ -21,3 +21,6 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 
 1. [Day 1. Counting sheep to sleep](./challenge-01/README.md)
    With the excitement of Christmas coming, we're having a hard time sleeping quite a bit lately. Let's try using this little trick that will help us fall asleep faster 🐑.
+
+1. [Day 2. Help the elf to list the gifts!](./challenge-02/README.md)
+   What a mess 😵! An elf is helping Santa Claus. He thought it would come to him already ordered from each gift how many units he should get.... and he got a letter ✉️ Help him out!
