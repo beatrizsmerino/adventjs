@@ -2,7 +2,7 @@
 
 ## Description
 
-Consider a list/array of sheep. Each has a name and a color. Make a function that returns a list of all sheep that are red and also have a name containing both the letters n AND a, regardless of order, capitalization or spaces.
+Consider a list/array of sheep. Each has a name and a color. Make a function that returns a list of all sheep that are `red` **and also** have a name containing both the letters `n` AND `a`, regardless of order, capitalization or spaces.
 
 For example, if we have the sheep:
 
