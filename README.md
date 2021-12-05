@@ -12,3 +12,5 @@ Although it has its roots in the Catholic religion, Advent has become a traditio
 ### Every day a new challenge!
 
 Starting on December 1st and until December 25th, every day, a new challenge for you to solve with JavaScript. Compete with your friends!
+
+![Advent calendar](./README/images/advent-calendar.gif)
