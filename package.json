@@ -1,0 +1,20 @@
+{
+	"name": "adventjs",
+	"version": "1.0.0",
+	"description": "In this repository of git I collect the solved challenges, that come from the website: [https://adventjs.dev/](https://adventjs.dev/)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/beatrizsmerino/adventjs.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/beatrizsmerino/adventjs/issues"
+	},
+	"homepage": "https://github.com/beatrizsmerino/adventjs#readme"
+}
