@@ -3,6 +3,8 @@
 In this repository of git I collect the solved challenges, that come from the website:
 [https://adventjs.dev/](https://adventjs.dev/)
 
+![Challenges JS](./README/images/js.svg)
+
 ## 25 days of JavaScript challenges
 
 ### What is an Advent?
