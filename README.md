@@ -16,3 +16,8 @@ Although it has its roots in the Catholic religion, Advent has become a traditio
 Starting on December 1st and until December 25th, every day, a new challenge for you to solve with JavaScript. Compete with your friends!
 
 ![Advent calendar](./README/images/advent-calendar.gif)
+
+## Challenges
+
+1. [Day 1. Counting sheep to sleep](./challenge-01/README.md)
+   With the excitement of Christmas coming, we're having a hard time sleeping quite a bit lately. Let's try using this little trick that will help us fall asleep faster 🐑.
