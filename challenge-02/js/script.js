@@ -1,8 +1,25 @@
 const carta = 'bici coche balón _playstation bici coche peluche'
 
-export default function listGifts(letter) {
+function listGifts(letter) {
 	// ¡Tú puedes!
-	return {};
+
+	console.log("✉️ List gifts: ", letter);
+
+	const giftsRemoveExtraSpaces = letter.trim();
+	const giftsArray = giftsRemoveExtraSpaces.split(' ');
+	console.log("✉️ Gifts array: ", giftsArray);
+
+	const giftsFiltered = giftsArray.filter(item => !item.startsWith('_'));
+	console.log("✉️ Gifts crossed out: ", giftsFiltered);
+
+	const giftsCounted = {};
+	giftsFiltered.forEach((x) => {
+		giftsCounted[x] = (giftsCounted[x] || 0) + 1;
+	});
+
+	console.log("✉️ Count gifts: ", giftsCounted);
+
+	return giftsCounted
 }
 
 const regalos = listGifts(carta)
