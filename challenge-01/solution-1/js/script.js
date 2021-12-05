@@ -8,13 +8,13 @@ const ovejas = [
 function contarOvejas(ovejas) {
 	// aquí tu magia
 
-	console.log("🐑 List sheep", ovejas);
+	console.log("🐑 List sheep: ", ovejas);
 
 	ovejas = ovejas.filter(el => el.color === 'rojo');
-	console.log("🐑 List of red sheep", ovejas);
+	console.log("🐑 List of red sheep: ", ovejas);
 
 	ovejas = ovejas.filter(el => el.name.match(/(?=.*[Nn])(?=.*[Aa])/gi) !== null);
-	console.log("🐑 List of sheep whose names have the letters: 'A', 'a', 'N', or 'n'", ovejas);
+	console.log("🐑 List of sheep whose names have the letters: 'A', 'a', 'N', or 'n': ", ovejas);
 
 	return ovejas
 }
