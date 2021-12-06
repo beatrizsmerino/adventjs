@@ -46,3 +46,5 @@ export default function daysToXmas(date) {
 	return 0;
 }
 ```
+
+[Solution](./js/script.js)
