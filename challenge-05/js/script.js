@@ -10,18 +10,46 @@ const dateList = [
 	new Date('Jan 1, 2022 23:59:59')
 ];
 
-let date = dateList[Math.floor(Math.random() * dateList.length)];
+const date = dateList[Math.floor(Math.random() * dateList.length)];
 
 function daysToXmas(date) {
 	// ¡Y no olvides compartir tu solución en redes!
 
 	const chrismasDate = new Date('Dec 25, 2021');
-	console.log("📆", [chrismasDate]);
+	const currentDate = date;
 
-	const checkDate = date;
-	console.log("🗓️", [checkDate]);
 
-	return 0
+	const dateFinishObj = {
+		year: chrismasDate.getFullYear(),
+		month: chrismasDate.getMonth(),
+		day: chrismasDate.getDate(),
+		hours: chrismasDate.getHours(),
+		minutes: chrismasDate.getMinutes(),
+		seconds: chrismasDate.getSeconds()
+	};
+	const dateStartObj = {
+		year: currentDate.getFullYear(),
+		month: currentDate.getMonth(),
+		day: currentDate.getDate(),
+		hours: currentDate.getHours(),
+		minutes: currentDate.getMinutes(),
+		seconds: currentDate.getSeconds()
+	};
+	console.log("📆 Christmas date obj: ", dateFinishObj);
+	console.log("📆 Current date obj: ", dateStartObj);
+
+
+	const dateFinish = new Date(dateFinishObj.year, dateFinishObj.month, dateFinishObj.day, dateFinishObj.hours, dateFinishObj.minutes, dateFinishObj.seconds);
+	const dateStart = new Date(dateStartObj.year, dateStartObj.month, dateStartObj.day, dateStartObj.hours, dateStartObj.minutes, dateStartObj.seconds);
+
+	const milisecondsDay = 1000 * 3600 * 24;
+	const milisecondsPassed = dateFinish.getTime() - dateStart.getTime();
+	const diffDays = Math.ceil(milisecondsPassed / milisecondsDay);
+
+
+	console.log(`${diffDays} days to go Christmas!`);
+
+	return diffDays;
 }
 
 daysToXmas(date);
