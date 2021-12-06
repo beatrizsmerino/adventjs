@@ -1,4 +1,4 @@
-const carta = 'bici coche balón _playstation bici coche peluche'
+const letter = 'bike car ball _playstation bike car toy'
 
 function listGifts(letter) {
 	// You can do it!
@@ -22,4 +22,4 @@ function listGifts(letter) {
 	return giftsCounted
 }
 
-listGifts(carta);
+listGifts(letter);

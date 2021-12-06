@@ -1,22 +1,22 @@
-const ovejas = [
-	{ name: 'Noa', color: 'azul' },
-	{ name: 'Euge', color: 'rojo' },
-	{ name: 'Navidad', color: 'rojo' },
-	{ name: 'Ki Na Ma', color: 'rojo' }
+const sheepList = [
+	{ name: 'Noa', color: 'blue' },
+	{ name: 'Euge', color: 'red' },
+	{ name: 'Navidad', color: 'red' },
+	{ name: 'Ki Na Ma', color: 'red' }
 ];
 
-function contarOvejas(ovejas) {
+function countSheep(sheepList) {
 	// here your magic
 
-	console.log("🐑 List sheep: ", ovejas);
+	console.log("🐑 List sheep: ", sheepList);
 
-	ovejas = ovejas.filter(el => el.color === 'rojo');
-	console.log("🐑 List of red sheep: ", ovejas);
+	sheepList = sheepList.filter(el => el.color === 'red');
+	console.log("🐑 List of red sheep: ", sheepList);
 
-	ovejas = ovejas.filter(el => el.name.match(/(?=.*[Nn])(?=.*[Aa])/gi) !== null);
-	console.log("🐑 List of sheep whose names have the letters: 'A', 'a', 'N', or 'n': ", ovejas);
+	sheepList = sheepList.filter(el => el.name.match(/(?=.*[Nn])(?=.*[Aa])/gi) !== null);
+	console.log("🐑 List of sheep whose names have the letters: 'A', 'a', 'N', or 'n': ", sheepList);
 
-	return ovejas
+	return sheepList;
 }
 
-contarOvejas(ovejas);
+countSheep(sheepList);
