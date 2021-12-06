@@ -13,7 +13,7 @@ const dateList = [
 const date = dateList[Math.floor(Math.random() * dateList.length)];
 
 function daysToXmas(date) {
-	// ¡Y no olvides compartir tu solución en redes!
+	// And don't forget to share your solution on social media!
 
 	const chrismasDate = new Date('Dec 25, 2021');
 	const currentDate = date;

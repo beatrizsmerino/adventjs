@@ -1,7 +1,7 @@
-const carta = 'bici coche balón _playstation bici coche peluche'
+const letter = 'bike car ball _playstation bike car toy'
 
 function listGifts(letter) {
-	// ¡Tú puedes!
+	// You can do it!
 
 	console.log("✉️ List gifts: ", letter);
 
@@ -22,6 +22,4 @@ function listGifts(letter) {
 	return giftsCounted
 }
 
-const regalos = listGifts(carta)
-
-console.log(regalos)
+listGifts(letter);

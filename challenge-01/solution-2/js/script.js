@@ -1,23 +1,21 @@
-const ovejas = [
-	{ name: 'Noa', color: 'azul' },
-	{ name: 'Euge', color: 'rojo' },
-	{ name: 'Navidad', color: 'rojo' },
-	{ name: 'Ki Na Ma', color: 'rojo' }
+const sheepList = [
+	{ name: 'Noa', color: 'blue' },
+	{ name: 'Euge', color: 'red' },
+	{ name: 'Navidad', color: 'red' },
+	{ name: 'Ki Na Ma', color: 'red' }
 ];
 
-function contarOvejas(ovejas) {
-	// aquí tu magia
+function countSheep(sheepList) {
+	// here your magic
 
-	console.log("🐑 List sheep: ", ovejas);
+	console.log("🐑 List sheep: ", sheepList);
 
-	const letras = ["n", "a"];
-	const elColor = "rojo";
-	ovejas = ovejas.filter(el => el.color === elColor && letras.every(i => el.name.toLowerCase().split('').includes(i)));
-	console.log("🐑 List of sheep filtered: ", ovejas);
+	const letters = ["n", "a"];
+	const color = "red";
+	sheepList = sheepList.filter(el => el.color === color && letters.every(i => el.name.toLowerCase().split('').includes(i)));
+	console.log("🐑 List of sheep filtered: ", sheepList);
 
-	return ovejas
+	return sheepList
 }
 
-const ovejasFiltradas = contarOvejas(ovejas)
-
-console.log(ovejasFiltradas)
+countSheep(sheepList);

@@ -1,16 +1,17 @@
 const letterList = [
-	"bici coche (balón) bici coche peluche",
-	"(muñeca) consola bici",
-	"bici coche (balón bici coche",
-	"peluche (bici [coche) bici coche balón",
-	"(peluche {) bici",
-	"() bici"
+	"bike car (ball) bike car toy",
+	"(doll) console bike",
+	"bike car (ball bike car",
+	"toy (bike [car) bike car ball",
+	"(toy {) bike",
+	"() bike"
 ];
 
 const letter = letterList[Math.floor(Math.random() * letterList.length)];
 
 function isValid(letter) {
-	// ¡No dejes que el Grinch gane!
+	// Don't let the Grinch win!
+
 	console.log("📜 Letter: ", letter);
 
 
@@ -65,9 +66,8 @@ function isValid(letter) {
 	}
 
 	const result = test();
+
 	return result;
 }
 
-const test = isValid(letter)
-
-console.log(test)
+isValid(letter);

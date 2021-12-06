@@ -42,7 +42,7 @@ By the way, the reference date to know if it is `Dec 25, 2021`.
 
 ```javascript
 export default function daysToXmas(date) {
-	// ¡Y no olvides compartir tu solución en redes!
+	// And don't forget to share your solution on social media!
 	return 0;
 }
 ```

@@ -13,13 +13,13 @@ But watch out! Because the Grinch has left braces `{` and square brackets `[` in
 Examples:
 
 ```javascript
-"bici coche (balón) bici coche peluche"; // -> ✅
-"(muñeca) consola bici"; // ✅
+"bike car (ball) bike car toy"; // -> ✅
+"(doll) console bike"; // ✅
 
-"bici coche (balón bici coche"; // -> ❌
-"peluche (bici [coche) bici coche balón"; // -> ❌
-"(peluche {) bici"; // -> ❌
-"() bici"; // ❌
+"bike car (ball bike car"; // -> ❌
+"toy (bike [car) bike car ball"; // -> ❌
+"(toy {) bike"; // -> ❌
+"() bike"; // ❌
 ```
 
 Create a function that, by passing it the text of the letter, returns `true` if it is valid and `false` if it is not. And put an end to the Grinch's mischief!
@@ -28,7 +28,7 @@ Create a function that, by passing it the text of the letter, returns `true` if 
 
 ```javascript
 export default function isValid(letter) {
-	// ¡No dejes que el Grinch gane!
+	// Don't let the Grinch win!
 	return true;
 }
 ```
