@@ -30,3 +30,6 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 
 4. [Day 4. It's time to put Christmas in the house!](./challenge-04/README.md)
    I think we can bring out the Christmas bonnets, the nougat... And the Christmas tree! 🎄 Let's set it up with JavaScript.
+
+5. [Day 5. Counting down the days to presents](./challenge-05/README.md)
+   I can't wait to open the presents 🎁! I'm so nervous that I can't stop counting the days to go 🤣 Can you help me by creating a schedule? Come on!
