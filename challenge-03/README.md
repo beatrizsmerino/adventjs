@@ -32,3 +32,5 @@ export default function isValid(letter) {
 	return true;
 }
 ```
+
+[Solution](./js/script.js)

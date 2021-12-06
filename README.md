@@ -24,3 +24,6 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 
 2. [Day 2. Help the elf to list the gifts!](./challenge-02/README.md)
    What a mess 😵! An elf is helping Santa Claus. He thought it would come to him already ordered from each gift how many units he should get.... and he got a letter ✉️ Help him out!
+
+3. [Day 3. The Grinch wants to ruin Christmas](./challenge-03/README.md)
+   The Grinch is on the loose and wants to screw up Christmas! 😱 Let's fix the mess he's made in Santa's gift factory.
