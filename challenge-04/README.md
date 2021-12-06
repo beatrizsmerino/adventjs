@@ -37,7 +37,7 @@ Note that the tree is a string and you need the line breaks `/n` for each line t
 
 ```javascript
 export default function createXmasTree(height) {
-	// ¡Y no olvides también poner los turrones!
+	// And don't forget to put the nougats in too!
 	return "";
 }
 ```

@@ -7,31 +7,33 @@ Consider a list/array of sheep. Each has a name and a color. Make a function tha
 For example, if we have the sheep:
 
 ```javascript
-const ovejas = [
-	{ name: "Noa", color: "azul" },
-	{ name: "Euge", color: "rojo" },
-	{ name: "Navidad", color: "rojo" },
-	{ name: "Ki Na Ma", color: "rojo" },
+const sheepList = [
+	{ name: "Noa", color: "blue" },
+	{ name: "Euge", color: "red" },
+	{ name: "Navidad", color: "red" },
+	{ name: "Ki Na Ma", color: "red" },
 ];
 ```
 
 When the method is executed it should return the following:
 
 ```javascript
-const ovejasFiltradas = contarOvejas(ovejas);
+const sheepFiltered = countSheep(sheepList);
 
-console.log(ovejasFiltradas);
+console.log(sheepFiltered);
 
-// [{ name: 'Navidad', color: 'rojo' },
-//  { name: 'Ki Na Ma', color: 'rojo' }]
+// [
+//  { name: 'Navidad', color: 'red' },
+//  { name: 'Ki Na Ma', color: 'red' }
+// ]
 ```
 
 ## Complete the challenge
 
 ```javascript
-export default function contarOvejas(ovejas) {
-	// aquí tu magia
-	return ovejas;
+export default function countSheep(sheepList) {
+	// here your magic
+	return sheepList;
 }
 ```
 

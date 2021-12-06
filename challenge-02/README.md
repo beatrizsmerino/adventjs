@@ -9,21 +9,21 @@ On top of that we noticed that some words come with a `_` in front of the word, 
 Transform the text to an object containing the name of each gift and the times it appears. For example, if we have the text:
 
 ```javascript
-const carta = "bici coche balón _playstation bici coche peluche";
+const letter = "bike car ball _playstation bike car toy";
 ```
 
 When the method is executed it should return the following:
 
 ```javascript
-const regalos = listGifts(carta);
+const gifts = listGifts(letter);
 
-console.log(regalos);
+console.log(gifts);
 /*
 {
-  bici: 2,
-  coche: 2,
-  balón: 1,
-  peluche: 1
+  bike: 2,
+  car: 2,
+  ball: 1,
+  toy: 1
 }
 */
 ```
@@ -34,7 +34,7 @@ Please note that the tests may be more comprehensive.... 😝 **Be careful with 
 
 ```javascript
 export default function listGifts(letter) {
-	// ¡Tú puedes!
+	// You can do it!
 	return {};
 }
 ```
