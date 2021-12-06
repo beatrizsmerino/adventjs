@@ -41,3 +41,5 @@ export default function createXmasTree(height) {
 	return "";
 }
 ```
+
+[Solution](./js/script.js)
