@@ -65,9 +65,8 @@ function isValid(letter) {
 	}
 
 	const result = test();
+
 	return result;
 }
 
-const test = isValid(letter)
-
-console.log(test)
+isValid(letter);
