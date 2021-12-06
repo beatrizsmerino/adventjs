@@ -1,5 +1,6 @@
 function createXmasTree(height) {
-	// ¡Y no olvides también poner los turrones!
+	// And don't forget to put the nougats in too!
+
 	const treeHeight = height;
 	console.log(`🌲 Height of tree: `, treeHeight);
 

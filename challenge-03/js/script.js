@@ -10,7 +10,8 @@ const letterList = [
 const letter = letterList[Math.floor(Math.random() * letterList.length)];
 
 function isValid(letter) {
-	// ¡No dejes que el Grinch gane!
+	// Don't let the Grinch win!
+
 	console.log("📜 Letter: ", letter);
 
 

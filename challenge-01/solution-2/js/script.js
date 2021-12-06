@@ -6,7 +6,7 @@ const ovejas = [
 ];
 
 function contarOvejas(ovejas) {
-	// aquí tu magia
+	// here your magic
 
 	console.log("🐑 List sheep: ", ovejas);
 

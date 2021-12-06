@@ -1,7 +1,7 @@
 const carta = 'bici coche balón _playstation bici coche peluche'
 
 function listGifts(letter) {
-	// ¡Tú puedes!
+	// You can do it!
 
 	console.log("✉️ List gifts: ", letter);
 
