@@ -19,6 +19,4 @@ function contarOvejas(ovejas) {
 	return ovejas
 }
 
-const ovejasFiltradas = contarOvejas(ovejas)
-
-console.log(ovejasFiltradas)
+contarOvejas(ovejas);

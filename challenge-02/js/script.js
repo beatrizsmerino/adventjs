@@ -22,6 +22,4 @@ function listGifts(letter) {
 	return giftsCounted
 }
 
-const regalos = listGifts(carta)
-
-console.log(regalos)
+listGifts(carta);
