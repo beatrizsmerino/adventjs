@@ -32,11 +32,19 @@ function contains(store, product) {
 	console.log("🏬 Store: ", store);
 	console.log("📦 Product: ", product);
 
-	return false
+	const storeToString = JSON.stringify(store);
+	console.log(storeToString);
+
+	let found = storeToString.includes(`:"${product}"`);
+	console.log(`🔍 Search ${product}: `, found);
+
+	if (found) {
+		return true;
+	} else {
+		return false;
+	}
 };
 
 
-const search1 = contains(store1, 't-shirt');
-const search2 = contains(store2, 'gameboy');
-console.log("🔍 Search 1: ", search1);
-console.log("🔍 Search 2: ", search2);
+contains(store1, 't-shirt');
+contains(store2, 'gameboy');
