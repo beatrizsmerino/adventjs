@@ -36,3 +36,6 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 
 6. [Day 6. Finishing off final exams](./challenge-06/README.md)
    Buffff! I can smell the holidays already but I still have to finish my final exams, and it's time for some maths! 😱 Help me!
+
+7. [Day 7. Searching the store...](./challenge-07/README.md)
+   We have a friend who works in a shop and he is not able to find the products he has in stock... Can we help him?
