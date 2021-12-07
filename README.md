@@ -33,3 +33,6 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 
 5. [Day 5. Counting down the days to presents](./challenge-05/README.md)
    I can't wait to open the presents 🎁! I'm so nervous that I can't stop counting the days to go 🤣 Can you help me by creating a schedule? Come on!
+
+6. [Day 6. Finishing off final exams](./challenge-06/README.md)
+   Buffff! I can smell the holidays already but I still have to finish my final exams, and it's time for some maths! 😱 Help me!
