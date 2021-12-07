@@ -32,3 +32,5 @@ export default function sumPairs(numbers, result) {
 	return null;
 }
 ```
+
+[Solution](./js/script.js)
