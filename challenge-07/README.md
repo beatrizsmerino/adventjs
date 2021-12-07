@@ -52,3 +52,5 @@ export default function contains(store, product) {
   return false
 }
 ```
+
+[Solution](./js/script.js)
