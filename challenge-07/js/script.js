@@ -25,11 +25,18 @@ const store2 = {
 	},
 };
 
-export default function contains(store, product) {
+
+function contains(store, product) {
 	// And don't forget to share your solution on social media!
+
+	console.log("🏬 Store: ", store);
+	console.log("📦 Product: ", product);
 
 	return false
 };
 
-contains(store1, 't-shirt');
-contains(store2, 'gameboy');
+
+const search1 = contains(store1, 't-shirt');
+const search2 = contains(store2, 'gameboy');
+console.log("🔍 Search 1: ", search1);
+console.log("🔍 Search 2: ", search2);
