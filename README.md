@@ -1,3 +1,10 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/beatrizsmerino/adventjs)
+![GitHub dependabot](https://img.shields.io/badge/dependabot-enabled-025e8c?logo=Dependabot)   
+![GitHub issues](https://img.shields.io/github/issues/beatrizsmerino/adventjs)
+![GitHub forks](https://img.shields.io/github/forks/beatrizsmerino/adventjs)
+![GitHub stars](https://img.shields.io/github/stars/beatrizsmerino/adventjs)
+![GitHub watchers](https://img.shields.io/github/watchers/beatrizsmerino/adventjs)
+
 # AdventJS
 
 In this repository of git I collect the solved challenges, that come from the website:
