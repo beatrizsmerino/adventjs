@@ -1,5 +1,4 @@
-# Challenge 02:
-# Help the elf to list the gifts
+# Challenge 02:</br>Help the elf to list the gifts
 
 What a mess 😵! An elf is helping Santa Claus. He thought it would come to him already ordered from each gift how many units he should get.... and he got a letter ✉️ Help him out!
 

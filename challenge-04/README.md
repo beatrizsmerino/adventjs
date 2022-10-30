@@ -1,5 +1,4 @@
-# Challenge 04:
-# It's time to put Christmas in the house
+# Challenge 04:</br>It's time to put Christmas in the house
 
 I think we can bring out the Christmas bonnets, the nougat... And the Christmas tree! 🎄 Let's set it up with JavaScript.
 

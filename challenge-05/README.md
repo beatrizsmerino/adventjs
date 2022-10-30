@@ -1,5 +1,4 @@
-# Challenge 05:
-# Counting down the days to presents
+# Challenge 05:</br>Counting down the days to presents
 
 I can't wait to open the presents 🎁! I'm so nervous that I can't stop counting the days to go 🤣 Can you help me by creating a schedule? Come on!
 

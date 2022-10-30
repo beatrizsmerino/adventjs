@@ -1,5 +1,4 @@
-# Challenge 07:
-# Searching the store
+# Challenge 07:</br>Searching the store
 
 We have a friend who works in a shop and he is not able to find the products he has in stock... Can we help him?
 

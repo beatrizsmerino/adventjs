@@ -1,5 +1,4 @@
-# Challenge 03:
-# The Grinch wants to ruin Christmas
+# Challenge 03:</br>The Grinch wants to ruin Christmas
 
 The Grinch is on the loose and wants to screw up Christmas! 😱 Let's fix the mess he's made in Santa's gift factory.
 
