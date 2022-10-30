@@ -28,6 +28,8 @@ console.log(sheepFiltered);
 // ]
 ```
 
+Remember. **It must contain both letters `a` and `n` in the name.** Do not count sheep that have only one of the letters, they must have both.
+
 ## Complete the challenge
 
 ```javascript
