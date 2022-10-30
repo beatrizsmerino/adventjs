@@ -1,5 +1,7 @@
 # Challenge 02
 
+What a mess 😵! An elf is helping Santa Claus. He thought it would come to him already ordered from each gift how many units he should get.... and he got a letter ✉️ Help him out!
+
 ## Description
 
 You have received a letter ✉️ with all the gifts you have to prepare. The thing is that it is a text string and it is very difficult to read 😱. Thank goodness they have put each gift separated by space! (although **be careful**, because being children, maybe they have put more spaces than necessary).

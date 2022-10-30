@@ -1,5 +1,7 @@
 # Challenge 01
 
+With the excitement of Christmas coming, we're having a hard time sleeping quite a bit lately. Let's try using this little trick that will help us fall asleep faster 🐑.
+
 ## Description
 
 Consider a list/array of sheep. Each has a name and a color. Make a function that returns a list of all sheep that are `red` **and also** have a name containing both the letters `n` AND `a`, regardless of order, capitalization or spaces.

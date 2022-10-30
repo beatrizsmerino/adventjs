@@ -1,5 +1,7 @@
 # Challenge 06
 
+Buffff! I can smell the holidays already but I still have to finish my final exams, and it's time for some maths! 😱 Help me!
+
 ## Description
 
 Before we can enjoy Christmas... it's time to finish off our final exams. And it's time for a bit of maths! 😱

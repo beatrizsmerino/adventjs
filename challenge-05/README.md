@@ -1,5 +1,7 @@
 # Challenge 05
 
+I can't wait to open the presents 🎁! I'm so nervous that I can't stop counting the days to go 🤣 Can you help me by creating a schedule? Come on!
+
 ## Description
 
 With the emotion, we are already starting to **count the days of the calendar until December 25 📆**.

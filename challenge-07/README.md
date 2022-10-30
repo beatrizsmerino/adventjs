@@ -1,5 +1,7 @@
 # Challenge 07
 
+We have a friend who works in a shop and he is not able to find the products he has in stock... Can we help him?
+
 ## Description
 
 My friend Dani is working in a shop and with the arrival of Christmas the warehouse is a mess and he can't find anything.

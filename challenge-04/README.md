@@ -1,5 +1,7 @@
 # Challenge 04
 
+I think we can bring out the Christmas bonnets, the nougat... And the Christmas tree! 🎄 Let's set it up with JavaScript.
+
 ## Description
 
 It's time to put up the Christmas tree at home! 🎄

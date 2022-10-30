@@ -1,5 +1,7 @@
 # Challenge 03
 
+The Grinch is on the loose and wants to screw up Christmas! 😱 Let's fix the mess he's made in Santa's gift factory.
+
 ## Description
 
 The Grinch is opening the letters that were going to Santa and leaving them in a mess. 😱
