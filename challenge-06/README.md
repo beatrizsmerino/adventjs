@@ -1,4 +1,5 @@
-# Challenge 06
+# Challenge 06:
+# Finishing off final exams
 
 Buffff! I can smell the holidays already but I still have to finish my final exams, and it's time for some maths! 😱 Help me!
 

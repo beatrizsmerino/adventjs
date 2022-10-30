@@ -1,4 +1,5 @@
-# Challenge 01
+# Challenge 01:
+# Counting sheep to sleep
 
 With the excitement of Christmas coming, we're having a hard time sleeping quite a bit lately. Let's try using this little trick that will help us fall asleep faster 🐑.
 
