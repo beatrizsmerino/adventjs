@@ -21,6 +21,7 @@ ____#____
 ```
 
 We create a triangle of asterisks `*` with the proportionate height and, on the sides, we use the underscore `_` for the spaces. It is very important that our tree always has the same length on each side.
+
 All trees, no matter how small or large, have a trunk of two `#` lines.
 
 Another example with a tree of height `3`:
