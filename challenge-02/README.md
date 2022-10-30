@@ -1,6 +1,6 @@
 # [Challenge 02:](https://adventjs.dev/challenges/02)</br>[Help the elf to list the gifts](https://adventjs.dev/challenges/02)
 
-What a mess 😵! An elf is helping Santa Claus. He thought it would come to him already ordered from each gift how many units he should get.... and he got a letter ✉️ Help him out!
+What a mess 😵! An elf is helping Santa Claus. He thought it would come to him already ordered from each gift how many units he should get... and he got a letter ✉️ Help him out!
 
 ## Description
 
@@ -30,7 +30,7 @@ console.log(gifts);
 */
 ```
 
-Please note that the tests may be more comprehensive.... 😝 **Be careful with counting blanks!**
+Please note that the tests may be more comprehensive... 😝 **Be careful with counting blanks!**
 
 ## Complete the challenge
 
