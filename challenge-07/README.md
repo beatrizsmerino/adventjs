@@ -1,4 +1,4 @@
-# Challenge 07:</br>Searching the store
+# [Challenge 07:](https://adventjs.dev/challenges/07)</br>[Searching the store](https://adventjs.dev/challenges/07)
 
 We have a friend who works in a shop and he is not able to find the products he has in stock... Can we help him?
 

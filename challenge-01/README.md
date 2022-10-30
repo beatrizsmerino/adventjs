@@ -1,4 +1,4 @@
-# Challenge 01:</br>Counting sheep to sleep
+# [Challenge 01:](https://adventjs.dev/challenges/01)</br>[Counting sheep to sleep](https://adventjs.dev/challenges/01)
 
 With the excitement of Christmas coming, we're having a hard time sleeping quite a bit lately. Let's try using this little trick that will help us fall asleep faster 🐑.
 
