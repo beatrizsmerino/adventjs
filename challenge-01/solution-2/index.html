@@ -4,18 +4,81 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Challenge 01</title>
+		<title>Challenge 01 | Counting sheep to sleep</title>
 	</head>
 
 	<body>
-		<h1>Challenge 01 (solution 2)</h1>
+		<h1>
+			<a href="https://adventjs.dev/challenges/01" target="_blank">
+				Challenge 01:<br />
+				Counting sheep to sleep
+			</a>
+		</h1>
 
 		<p>
-			Open this file with ‘Live Server’ extension of Visual Studio Code
-			<br />
-			and inspect the browser console to see the results and debugger the
-			js code.
+			With the excitement of Christmas coming, we are having a hard time
+			sleeping lately. Let's try this little trick that will help us fall
+			asleep faster 🐑.
 		</p>
+
+		<h2>
+			Description
+		</h2>
+
+		<p>
+			Consider a list/array of sheep. Each has a name and a color. Make a
+			function that returns a list of all sheep that are 'red'
+			<strong>and also</strong> have a name containing both the letters
+			'n' AND 'a', regardless of order, capitalization or spaces.
+		</p>
+
+		<p>
+			For example, if we have the sheep:
+		</p>
+
+		<em>
+			<pre>
+				const sheepList = [
+					{ name: "Noa", color: "blue" },
+					{ name: "Euge", color: "red" },
+					{ name: "Navidad", color: "red" },
+					{ name: "Ki Na Ma", color: "red" },
+				];
+			</pre>
+		</em>
+
+		<p>
+			When the method is executed it should return the following:
+		</p>
+
+		<em>
+			<pre>
+				const sheepFiltered = countSheep(sheepList);
+				console.log(sheepFiltered);
+				// [
+				// 	{ name: 'Navidad', color: 'red' },
+				// 	{ name: 'Ki Na Ma', color: 'red' }
+				// ]
+			</pre>
+		</em>
+
+		<p>
+			Remember. <strong>It must contain both letters 'a' and 'n' in the name.</strong>
+			Do not count sheep that have only one of the letters, they must have both.
+		</p>
+
+		<h2>
+			Complete the challenge
+		</h2>
+
+		<em>
+			<pre>
+				export default function countSheep(sheepList) {
+					// here your magic
+					return sheepList;
+				}
+			</pre>
+		</em>
 
 		<script src="js/script.js"></script>
 	</body>

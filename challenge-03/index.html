@@ -4,18 +4,81 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Challenge 03</title>
+		<title>Challenge 03 | The Grinch wants to ruin Christmas</title>
 	</head>
 
 	<body>
-		<h1>Challenge 03</h1>
+		<h1>
+			<a href="https://adventjs.dev/challenges/03" target="_blank">
+				Challenge 03:<br>
+				The Grinch wants to ruin Christmas
+			</a>
+		</h1>
 
 		<p>
-			Open this file with ‘Live Server’ extension of Visual Studio Code
-			<br />
-			and inspect the browser console to see the results and debugger the
-			js code.
+			The Grinch is on the loose and wants to screw up Christmas! 😱 Let's
+			fix the mess he's made in Santa's gift factory.
 		</p>
+
+		<h2>
+			Description
+		</h2>
+
+		<p>
+			The Grinch is opening the letters that were going to Santa and
+			leaving them in a mess. 😱
+		</p>
+
+		<p>
+			The letters are a string of text including gifts and parentheses
+			'()'.
+		</p>
+
+		<p>
+			To know if a letter is valid ✅, you must check that the parentheses
+			close correctly and also that they are not empty.
+		</p>
+
+		<p>
+			But watch out! Because the Grinch has left braces '{' and square
+			brackets '[' inside the parentheses that <strong>make them invalid</strong>.
+			Luckily he has only left them in the middle of the parentheses...
+		</p>
+
+		<p>
+			Examples:
+		</p>
+
+		<em>
+			<pre>
+				"bike car (ball) bike car toy"; // -> ✅
+				"(doll) console bike"; // ✅
+
+				"bike car (ball bike car"; // -> ❌
+				"toy (bike [car) bike car ball"; // -> ❌
+				"(toy {) bike"; // -> ❌
+				"() bike"; // ❌
+			</pre>
+		</em>
+
+		<p>
+			Create a function that, by passing it the text of the letter,
+			returns 'true' if it is valid and 'false' if it is not. And put an
+			end to the Grinch's mischief!
+		</p>
+
+		<h2>
+			Complete the challenge
+		</h2>
+
+		<em>
+			<pre>
+				export default function isValid(letter) {
+					// Don't let the Grinch win!
+					return true;
+				}
+			</pre>
+		</em>
 
 		<script src="js/script.js"></script>
 	</body>

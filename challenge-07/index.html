@@ -4,18 +4,98 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Challenge 07</title>
+		<title>Challenge 07 | Searching the store</title>
 	</head>
 
 	<body>
-		<h1>Challenge 07</h1>
+		<h1>
+			<a href="https://adventjs.dev/challenges/07" target="_blank">
+				Challenge 07:<br>
+				Searching the store
+			</a>
+		</h1>
 
 		<p>
-			Open this file with ‘Live Server’ extension of Visual Studio Code
-			<br />
-			and inspect the browser console to see the results and debugger the
-			js code.
+			We have a friend who works in a shop and he is not able to find the
+			products he has in stock... Can we help him?
 		</p>
+
+		<h2>
+			Description
+		</h2>
+
+		<p>
+			My friend Dani is working in a shop and with the arrival of
+			Christmas the warehouse is a mess and he can't find anything.
+		</p>
+
+		<p>
+			We are going to create a `contains` function that receives two
+			parameters: an object that defines the store and the product we are
+			looking for.
+		</p>
+
+		<p>
+			The function must return a boolean that indicates if the string is
+			found as a value at some level of the object. Let's see some
+			examples:
+		</p>
+
+		<em>
+			<pre>
+				const store1 = {
+					shelf1: {
+						box1: {
+							product1: 'coca-cola',
+							product2: 'fanta',
+							product3: 'sprite'
+						},
+					},
+					shelf2: {
+						box1: 'empty',
+						box2: {
+							product1: 'trousers',
+							product2: 't-shirt' // <- It's here!
+						},
+					},
+				};
+
+				contains(store1, 't-shirt'); // true
+
+				const store2 = {
+					boot: {
+						bottom: {
+							'object': 'cd-rom',
+							'other-object': 'diskette',
+							'other-think': 'remote control'
+						},
+					},
+				};
+
+				contains(store2, 'gameboy'); // false
+			</pre>
+		</em>
+
+		<p>
+			Keep in mind that the shop is huge. It has different warehouses and,
+			as you have seen in the examples, each one can have different
+			organisations, **the important thing is to look for that the product
+			is in the warehouses**.
+		</p>
+
+		<h2>
+			Complete the challenge
+		</h2>
+
+		<em>
+			<pre>
+				export default function contains(store, product) {
+					// And don't forget to share your solution on social media!
+					
+					return false
+				}
+			</pre>
+		</em>
 
 		<script src="js/script.js"></script>
 	</body>

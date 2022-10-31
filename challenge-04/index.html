@@ -4,18 +4,95 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Challenge 04</title>
+		<title>Challenge 04 | It's time to put Christmas in the house</title>
 	</head>
 
 	<body>
-		<h1>Challenge 04</h1>
+		<h1>
+			<a href="https://adventjs.dev/challenges/04" target="_blank">
+				Challenge 04:<br />
+				It's time to put Christmas in the house
+			</a>
+		</h1>
 
 		<p>
-			Open this file with ‘Live Server’ extension of Visual Studio Code
-			<br />
-			and inspect the browser console to see the results and debugger the
-			js code.
+			I think we can bring out the Christmas hat, the nougat... And the
+			Christmas tree! 🎄 Let's set it up with JavaScript.
 		</p>
+
+		<h2>
+			Description
+		</h2>
+
+		<p>
+			It's time to put up the Christmas tree at home! 🎄
+		</p>
+
+		<p>
+			To do this, we are going to create a function that receives the
+			height of the tree, which will be a positive integer from 1 to, at
+			most, 100.
+		</p>
+
+		<p>
+			If we pass it the argument '5', it would paint this:
+		</p>
+
+		<em>
+			<pre>
+				____*____
+				___***___
+				__*****__
+				_*******_
+				*********
+				____#____
+				____#____
+			</pre>
+		</em>
+
+		<p>
+			We create a triangle of asterisks '*' with the proportionate height
+			and, on the sides, we use the underscore '_' for the spaces. It is
+			very important that our tree always has the same length on each
+			side.
+		</p>
+
+		<p>
+			All trees, no matter how small or large, have a trunk of two '#'
+			lines.
+		</p>
+
+		<p>
+			Another example with a tree of height '3':
+		</p>
+
+		<em>
+			<pre>
+				__*__
+				_***_
+				*****
+				__#__
+				__#__
+			</pre>
+		</em>
+
+		<p>
+			Note that the tree is a string and you need the line breaks '/n' for
+			each line to form the tree properly.
+		</p>
+
+		<h2>
+			Complete the challenge
+		</h2>
+
+		<em>
+			<pre>
+				export default function createXmasTree(height) {
+					// And don't forget to put the nougats in too!
+					return "";
+				}
+			</pre>
+		</em>
 
 		<script src="js/script.js"></script>
 	</body>
