@@ -1,4 +1,4 @@
-# [Challenge 06:](https://adventjs.dev/challenges/06)</br>[Finishing off final exams](https://adventjs.dev/challenges/06)
+# [Challenge 06:](https://adventjs.dev/challenges/06)<br>[Finishing off final exams](https://adventjs.dev/challenges/06)
 
 Buffff! I can smell the holidays already but I still have to finish my final exams, and it's time for some maths! 😱 Help me!
 
