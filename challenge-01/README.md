@@ -1,4 +1,6 @@
-# Challenge 01
+# [Challenge 01:](https://adventjs.dev/challenges/01)<br>[Counting sheep to sleep](https://adventjs.dev/challenges/01)
+
+With the excitement of Christmas coming, we're having a hard time sleeping quite a bit lately. Let's try using this little trick that will help us fall asleep faster 🐑.
 
 ## Description
 
@@ -27,6 +29,8 @@ console.log(sheepFiltered);
 //  { name: 'Ki Na Ma', color: 'red' }
 // ]
 ```
+
+Remember. **It must contain both letters `a` and `n` in the name.** Do not count sheep that have only one of the letters, they must have both.
 
 ## Complete the challenge
 
