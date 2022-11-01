@@ -1,5 +1,7 @@
 # [Challenge 05:](https://adventjs.dev/challenges/05)<br>[Counting down the days to presents](https://adventjs.dev/challenges/05)
 
+![Challenge 05](../README/images/challenge-05.png)
+
 I can't wait to open the presents 🎁! I'm so nervous that I can't stop counting the days to go 🤣 Can you help me by creating a schedule? Come on!
 
 ## Description

@@ -1,5 +1,7 @@
 # [Challenge 07:](https://adventjs.dev/challenges/07)<br>[Searching the store](https://adventjs.dev/challenges/07)
 
+![Challenge 07](../README/images/challenge-07.png)
+
 We have a friend who works in a shop and he is not able to find the products he has in stock... Can we help him?
 
 ## Description
