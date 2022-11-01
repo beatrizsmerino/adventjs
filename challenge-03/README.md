@@ -1,4 +1,6 @@
-# Challenge 03
+# [Challenge 03:](https://adventjs.dev/challenges/03)<br>[The Grinch wants to ruin Christmas](https://adventjs.dev/challenges/03)
+
+The Grinch is on the loose and wants to screw up Christmas! 😱 Let's fix the mess he's made in Santa's gift factory.
 
 ## Description
 
@@ -8,7 +10,7 @@ The letters are a string of text including gifts and parentheses `()`.
 
 To know if a letter is valid ✅, you must check that the parentheses close correctly and also that they are not empty.
 
-But watch out! Because the Grinch has left braces `{` and square brackets `[` inside the parentheses that **make them invalid**. Luckily he has only left them in the middle of the parentheses....
+But watch out! Because the Grinch has left braces `{` and square brackets `[` inside the parentheses that **make them invalid**. Luckily he has only left them in the middle of the parentheses...
 
 Examples:
 

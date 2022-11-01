@@ -1,4 +1,6 @@
-# Challenge 04
+# [Challenge 04:](https://adventjs.dev/challenges/04)<br>[It's time to put Christmas in the house](https://adventjs.dev/challenges/04)
+
+I think we can bring out the Christmas bonnets, the nougat... And the Christmas tree! 🎄 Let's set it up with JavaScript.
 
 ## Description
 
@@ -19,6 +21,7 @@ ____#____
 ```
 
 We create a triangle of asterisks `*` with the proportionate height and, on the sides, we use the underscore `_` for the spaces. It is very important that our tree always has the same length on each side.
+
 All trees, no matter how small or large, have a trunk of two `#` lines.
 
 Another example with a tree of height `3`:
