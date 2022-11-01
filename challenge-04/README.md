@@ -1,5 +1,7 @@
 # [Challenge 04:](https://adventjs.dev/challenges/04)<br>[It's time to put Christmas in the house](https://adventjs.dev/challenges/04)
 
+![Challenge 04](../README/images/challenge-04.png)
+
 I think we can bring out the Christmas bonnets, the nougat... And the Christmas tree! 🎄 Let's set it up with JavaScript.
 
 ## Description
