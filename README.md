@@ -56,3 +56,10 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 
 ## Solutions
 
+### Blog Pedro López Mareque
+
+- [Del 1 a 5](https://www.pmareke.com/posts/advent-js-2021-1-5/)
+- [Del 6 a 10](https://www.pmareke.com/posts/advent-js-2021-6-10/)
+- [Del 11 a 15](https://www.pmareke.com/posts/advent-js-2021-11-15/)
+- [Del 16 a 20](https://www.pmareke.com/posts/advent-js-2021-16-20/)
+- [Del 21 a 25](https://www.pmareke.com/posts/advent-js-2021-21-25/)
