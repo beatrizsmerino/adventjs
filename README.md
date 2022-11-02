@@ -83,3 +83,7 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 - [Reto 09](https://www.youtube.com/watch?v=qxZ2N6Tsm14)
 - [Reto 10](https://www.youtube.com/watch?v=HboFbhSZk0o)
 - [Reto 11](https://www.youtube.com/watch?v=EDiwN5nnzMw)
+
+### GitHub Borja Paz Rodríguez
+
+[Awesome adventJS - 25 días de retos con JavaScript](https://github.com/borjapazr/awesome-adventjs)
