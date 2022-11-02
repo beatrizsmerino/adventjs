@@ -56,7 +56,7 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 
 ## Solutions
 
-### Blog Pedro López Mareque
+### Blog - Pedro López Mareque
 
 - [Del 1 a 5](https://www.pmareke.com/posts/advent-js-2021-1-5/)
 - [Del 6 a 10](https://www.pmareke.com/posts/advent-js-2021-6-10/)
@@ -64,11 +64,11 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 - [Del 16 a 20](https://www.pmareke.com/posts/advent-js-2021-16-20/)
 - [Del 21 a 25](https://www.pmareke.com/posts/advent-js-2021-21-25/)
 
-### Blog DEV Cristian Fernando
+### Blog DEV - Cristian Fernando
 
 [Advent.js, mejora tu lógica de programación navi Series' Articles](https://dev.to/duxtech/series/15762)
 
-### Youtube Runcoding
+### Youtube - Runcoding
 
 [Resolviendo los retos del #AdventJS](https://www.youtube.com/watch?v=ZdU6c8sYJ7A&list=PL9U8K1aoRM6zMtHh1lrso5Oq5EfIEAxR8)
 
@@ -84,6 +84,6 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 - [Reto 10](https://www.youtube.com/watch?v=HboFbhSZk0o)
 - [Reto 11](https://www.youtube.com/watch?v=EDiwN5nnzMw)
 
-### GitHub Borja Paz Rodríguez
+### GitHub - Borja Paz Rodríguez
 
 [Awesome adventJS - 25 días de retos con JavaScript](https://github.com/borjapazr/awesome-adventjs)
