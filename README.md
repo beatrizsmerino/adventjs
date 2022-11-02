@@ -68,3 +68,18 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 
 [Advent.js, mejora tu lógica de programación navi Series' Articles](https://dev.to/duxtech/series/15762)
 
+### Youtube Runcoding
+
+[Resolviendo los retos del #AdventJS](https://www.youtube.com/watch?v=ZdU6c8sYJ7A&list=PL9U8K1aoRM6zMtHh1lrso5Oq5EfIEAxR8)
+
+- [Reto 01](https://www.youtube.com/watch?v=ZdU6c8sYJ7A)
+- [Reto 02](https://www.youtube.com/watch?v=vTBz7sPxRew)
+- [Reto 03](https://www.youtube.com/watch?v=Y7mOOj8sqNs)
+- [Reto 04](https://www.youtube.com/watch?v=2amccZKdW-Y)
+- [Reto 05](https://www.youtube.com/watch?v=y_3PruZuGxE)
+- [Reto 06](https://www.youtube.com/watch?v=L92lJTEgsCk)
+- [Reto 07](https://www.youtube.com/watch?v=nPWtxb-MOaM)
+- [Reto 08](https://www.youtube.com/watch?v=prAAcQBYig4)
+- [Reto 09](https://www.youtube.com/watch?v=qxZ2N6Tsm14)
+- [Reto 10](https://www.youtube.com/watch?v=HboFbhSZk0o)
+- [Reto 11](https://www.youtube.com/watch?v=EDiwN5nnzMw)
