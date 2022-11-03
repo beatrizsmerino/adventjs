@@ -53,3 +53,6 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 | <ul><li>- [ ] #23</li></ul> | [Can you reconfigure the factories so we can't stop creating gifts?](./challenge-23/README.md) | Santa wants the machines running 24 hours a day, like this is a Pocholo rave. Chiki pun chiki pun. Help him get it! | ![Challenge 23](./README/images/challenge-23.png) |
 | <ul><li>- [ ] #24</li></ul> | [Comparing Christmas trees](./challenge-24/README.md) | Grandpa and Grandma have been arguing all day about whether Christmas trees are all the same... Let's get it out of the way! | ![Challenge 24](./README/images/challenge-24.png) |
 | <ul><li>- [ ] #25</li></ul> | [The last game and until next year 👋](./challenge-25/README.md) | A mouse has seen that there's a lot of food left in the dining room 🥮 and is already licking his whiskers for the feast he's going to feast on. 🐭 | ![Challenge 25](./README/images/challenge-25.png) |
+
+## Others advents
+
