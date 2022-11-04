@@ -67,5 +67,6 @@ Soluciones:
 - [AdventJS (2021)](https://adventjs.dev/)  
 	Soluciones:
 	- [Blog de Pedro López Mareque](https://www.pmareke.com/posts/advent-js-2021-1-5/)
+	- [Blog DEV de Cristian Fernando](https://dev.to/duxtech/series/15762)
 	- [Canal Youtube de Runcoding](https://www.youtube.com/watch?v=ZdU6c8sYJ7A&list=PL9U8K1aoRM6zMtHh1lrso5Oq5EfIEAxR8)
 	- [GitHub de Borja Paz Rodríguez](https://github.com/borjapazr/awesome-adventjs)
