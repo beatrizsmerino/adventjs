@@ -87,3 +87,13 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 ### GitHub - Borja Paz Rodríguez
 
 [Awesome adventJS - 25 días de retos con JavaScript](https://github.com/borjapazr/awesome-adventjs)
+
+## Others advents
+
+[Retos de programación en diciembre: Advientos de Código](https://midu.dev/retos-programacion-advent-of-code/)
+
+- [Advent of CSS (2021)](https://www.adventofcss.com/)
+- [Advent of Javascript (2021)](https://www.adventofjs.com/)
+- [Advent of code (2015-2022)](https://adventofcode.com/)
+	- [ngxCoder Andrés Tuñón - Soluciones 2021](https://ngxcoder.dev/tag/challenge/)
+	- [Cristiana's Dev Blog - Solutions 2021](https://blog.cristiana.tech/series/advent-of-code-2021)
