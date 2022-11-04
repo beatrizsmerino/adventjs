@@ -58,8 +58,8 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 
 [Retos de programación en diciembre: Advientos de Código](https://midu.dev/retos-programacion-advent-of-code/)
 
-- [Advent of code (2015-2022)](https://adventofcode.com/)
-Soluciones:
+- [Advent of code (2015-2022)](https://adventofcode.com/)  
+	Soluciones:
   - [Blog ngxCoder de Andrés Tuñón (2021)](https://ngxcoder.dev/tag/challenge/)
   - [Cristiana's Dev Blog (2021)](https://blog.cristiana.tech/series/advent-of-code-2021)
 - [Advent of CSS (2021)](https://www.adventofcss.com/)
