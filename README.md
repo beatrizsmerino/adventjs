@@ -54,46 +54,17 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 | <ul><li>- [ ] #24</li></ul> | [Comparing Christmas trees](./challenge-24/README.md) | Grandpa and Grandma have been arguing all day about whether Christmas trees are all the same... Let's get it out of the way! | ![Challenge 24](./README/images/challenge-24.png) |
 | <ul><li>- [ ] #25</li></ul> | [The last game and until next year 👋](./challenge-25/README.md) | A mouse has seen that there's a lot of food left in the dining room 🥮 and is already licking his whiskers for the feast he's going to feast on. 🐭 | ![Challenge 25](./README/images/challenge-25.png) |
 
-## Solutions
-
-### Blog - Pedro López Mareque
-
-- [Del 1 a 5](https://www.pmareke.com/posts/advent-js-2021-1-5/)
-- [Del 6 a 10](https://www.pmareke.com/posts/advent-js-2021-6-10/)
-- [Del 11 a 15](https://www.pmareke.com/posts/advent-js-2021-11-15/)
-- [Del 16 a 20](https://www.pmareke.com/posts/advent-js-2021-16-20/)
-- [Del 21 a 25](https://www.pmareke.com/posts/advent-js-2021-21-25/)
-
-### Blog DEV - Cristian Fernando
-
-[Advent.js, mejora tu lógica de programación navi Series' Articles](https://dev.to/duxtech/series/15762)
-
-### Youtube - Runcoding
-
-[Resolviendo los retos del #AdventJS](https://www.youtube.com/watch?v=ZdU6c8sYJ7A&list=PL9U8K1aoRM6zMtHh1lrso5Oq5EfIEAxR8)
-
-- [Reto 01](https://www.youtube.com/watch?v=ZdU6c8sYJ7A)
-- [Reto 02](https://www.youtube.com/watch?v=vTBz7sPxRew)
-- [Reto 03](https://www.youtube.com/watch?v=Y7mOOj8sqNs)
-- [Reto 04](https://www.youtube.com/watch?v=2amccZKdW-Y)
-- [Reto 05](https://www.youtube.com/watch?v=y_3PruZuGxE)
-- [Reto 06](https://www.youtube.com/watch?v=L92lJTEgsCk)
-- [Reto 07](https://www.youtube.com/watch?v=nPWtxb-MOaM)
-- [Reto 08](https://www.youtube.com/watch?v=prAAcQBYig4)
-- [Reto 09](https://www.youtube.com/watch?v=qxZ2N6Tsm14)
-- [Reto 10](https://www.youtube.com/watch?v=HboFbhSZk0o)
-- [Reto 11](https://www.youtube.com/watch?v=EDiwN5nnzMw)
-
-### GitHub - Borja Paz Rodríguez
-
-[Awesome adventJS - 25 días de retos con JavaScript](https://github.com/borjapazr/awesome-adventjs)
-
-## Others advents
+## References
 
 [Retos de programación en diciembre: Advientos de Código](https://midu.dev/retos-programacion-advent-of-code/)
 
+- [Advent of code (2015-2022)](https://adventofcode.com/)
+	- [Blog NgxCoder - Andrés Tuñón (2021)](https://ngxcoder.dev/tag/challenge/)
+	- [Blog DEV - Cristiana (2021)](https://blog.cristiana.tech/series/advent-of-code-2021)
 - [Advent of CSS (2021)](https://www.adventofcss.com/)
 - [Advent of Javascript (2021)](https://www.adventofjs.com/)
-- [Advent of code (2015-2022)](https://adventofcode.com/)
-	- [ngxCoder Andrés Tuñón - Soluciones 2021](https://ngxcoder.dev/tag/challenge/)
-	- [Cristiana's Dev Blog - Solutions 2021](https://blog.cristiana.tech/series/advent-of-code-2021)
+- [AdventJS (2021)](https://adventjs.dev/)  
+	- [Blog - Pedro López Mareque](https://www.pmareke.com/posts/advent-js-2021-1-5/)
+	- [Blog DEV - Cristian Fernando](https://dev.to/duxtech/series/15762)
+	- [Youtube - Runcoding](https://www.youtube.com/watch?v=ZdU6c8sYJ7A&list=PL9U8K1aoRM6zMtHh1lrso5Oq5EfIEAxR8)
+	- [GitHub - Borja Paz Rodríguez](https://github.com/borjapazr/awesome-adventjs)
