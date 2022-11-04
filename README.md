@@ -54,18 +54,18 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 | <ul><li>- [ ] #24</li></ul> | [Comparing Christmas trees](./challenge-24/README.md) | Grandpa and Grandma have been arguing all day about whether Christmas trees are all the same... Let's get it out of the way! | ![Challenge 24](./README/images/challenge-24.png) |
 | <ul><li>- [ ] #25</li></ul> | [The last game and until next year 👋](./challenge-25/README.md) | A mouse has seen that there's a lot of food left in the dining room 🥮 and is already licking his whiskers for the feast he's going to feast on. 🐭 | ![Challenge 25](./README/images/challenge-25.png) |
 
-## Solutions
-
-- [Blog Pedro López Mareque](https://www.pmareke.com/posts/advent-js-2021-1-5/)
-- [Youtube Runcoding](https://www.youtube.com/watch?v=ZdU6c8sYJ7A&list=PL9U8K1aoRM6zMtHh1lrso5Oq5EfIEAxR8)
-- [GitHub Borja Paz Rodríguez](https://github.com/borjapazr/awesome-adventjs)
-
-## Others advents
+## References
 
 [Retos de programación en diciembre: Advientos de Código](https://midu.dev/retos-programacion-advent-of-code/)
 
 - [Advent of CSS (2021)](https://www.adventofcss.com/)
 - [Advent of Javascript (2021)](https://www.adventofjs.com/)
-- [Advent of code (2015-2022)](https://adventofcode.com/)
-	- [ngxCoder Andrés Tuñón - Soluciones 2021](https://ngxcoder.dev/tag/challenge/)
-	- [Cristiana's Dev Blog - Solutions 2021](https://blog.cristiana.tech/series/advent-of-code-2021)
+- [Advent of code (2015-2022)](https://adventofcode.com/)   
+Soluciones:
+	- [ngxCoder Andrés Tuñón (2021)](https://ngxcoder.dev/tag/challenge/)
+	- [Cristiana's Dev Blog (2021)](https://blog.cristiana.tech/series/advent-of-code-2021)
+- [AdventJS (2021)](https://adventjs.dev/)  
+	Soluciones:
+	- [Blog Pedro López Mareque](https://www.pmareke.com/posts/advent-js-2021-1-5/)
+	- [Youtube Runcoding](https://www.youtube.com/watch?v=ZdU6c8sYJ7A&list=PL9U8K1aoRM6zMtHh1lrso5Oq5EfIEAxR8)
+	- [GitHub Borja Paz Rodríguez](https://github.com/borjapazr/awesome-adventjs)
