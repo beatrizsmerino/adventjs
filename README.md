@@ -60,12 +60,12 @@ Starting on December 1st and until December 25th, every day, a new challenge for
 
 - [Advent of code (2015-2022)](https://adventofcode.com/)
 Soluciones:
-  - [ngxCoder Andrés Tuñón (2021)](https://ngxcoder.dev/tag/challenge/)
+  - [Blog ngxCoder de Andrés Tuñón (2021)](https://ngxcoder.dev/tag/challenge/)
   - [Cristiana's Dev Blog (2021)](https://blog.cristiana.tech/series/advent-of-code-2021)
 - [Advent of CSS (2021)](https://www.adventofcss.com/)
 - [Advent of Javascript (2021)](https://www.adventofjs.com/)
 - [AdventJS (2021)](https://adventjs.dev/)  
 	Soluciones:
-	- [Blog Pedro López Mareque](https://www.pmareke.com/posts/advent-js-2021-1-5/)
-	- [Youtube Runcoding](https://www.youtube.com/watch?v=ZdU6c8sYJ7A&list=PL9U8K1aoRM6zMtHh1lrso5Oq5EfIEAxR8)
-	- [GitHub Borja Paz Rodríguez](https://github.com/borjapazr/awesome-adventjs)
+	- [Blog de Pedro López Mareque](https://www.pmareke.com/posts/advent-js-2021-1-5/)
+	- [Canal Youtube de Runcoding](https://www.youtube.com/watch?v=ZdU6c8sYJ7A&list=PL9U8K1aoRM6zMtHh1lrso5Oq5EfIEAxR8)
+	- [GitHub de Borja Paz Rodríguez](https://github.com/borjapazr/awesome-adventjs)
