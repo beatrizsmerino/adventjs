@@ -40,3 +40,5 @@ export default function maxProfit(prices) {
 	return false;
 }
 ```
+
+[Solution](./js/script.js)
