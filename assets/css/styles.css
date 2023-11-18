@@ -8,3 +8,10 @@ code {
 	color: darkseagreen;
 	font-weight: 900;
 }
+
+p code {
+	padding: 0.2em 0.5em;
+	color: white;
+	border-radius: 0.4rem;
+	background-color: darkseagreen;
+}
