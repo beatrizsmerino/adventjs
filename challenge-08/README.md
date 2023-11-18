@@ -15,11 +15,11 @@ The price list is an array of numbers and represents time from left to right. So
 For example:
 
 ```javascript
-const pricesBtc = [39, 18, 29, 25, 34, 32, 5]
-maxProfit(pricesBtc) // -> 16 (buy at 18, sell at 34)
+const pricesBtc = [39, 18, 29, 25, 34, 32, 5];
+maxProfit(pricesBtc); // -> 16 (buy at 18, sell at 34)
 
-const pricesEth = [10, 20, 30, 40, 50, 60, 70]  
-maxProfit(pricesEth) // -> 60 (buys at 10, sells at 70)
+const pricesEth = [10, 20, 30, 40, 50, 60, 70];
+maxProfit(pricesEth); // -> 60 (buys at 10, sells at 70)
 ```
 
 **If no profit can be made that day,** we have to return `-1` to prevent us from doing something crazy:
@@ -37,6 +37,6 @@ maxProfit(pricesAda) = // -> -1 (no profit possible)
 ```javascript
 export default function maxProfit(prices) {
 	// And don't forget to share your solution on networks!
-	return false
+	return false;
 }
 ```

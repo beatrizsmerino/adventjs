@@ -1,24 +1,76 @@
 function maxProfit(prices) {
-	// And don't forget to share your solution on networks!
+	// Initially, the lowest price to buy is the first price in the array
+	let priceMinToBuy = prices[0];
+	// This will keep track of the buying price for the maximum profit
+	let priceToBuyForMaxProfit = prices[0];
+	// Initially, no selling price has been determined
+	let priceMaxToSell = 0;
+	// Initially, no profit has been found
+	let maxProfit = -1;
 
-	console.log("🪙 Prices: ", prices);
+	// Prepare an array to hold the log data for the table
+	let logData = [];
 
-	const priceMin = prices.sort((a, b) => a - b)[0];
-	console.log("The min price:", priceMin);
+	for (let i = 1; i < prices.length; i++) {
+		let foundNewMin = false;
+		let foundNewMax = false;
 
-	const priceMax = prices.sort((a, b) => b - a)[0];
-	console.log("The max price: ", priceMax);
+		// If the current price is lower than the lowest price found so far
+		if (prices[i] < priceMinToBuy) {
+			// Update the lowest price to buy
+			priceMinToBuy = prices[i];
+			foundNewMin = true;
+		}
 
-	const benefits = priceMax - priceMin;
-	console.log(`${benefits} -> (buy at ${priceMin}, sell at ${priceMax})`);
+		// Calculate potential profit
+		let potentialProfit = prices[i] - priceMinToBuy;
 
-	if (benefits > 0) {
-		console.log("profit possible");
-		return benefits;
+		// If the potential profit is greater than the highest profit found so far
+		if (potentialProfit > maxProfit) {
+			// Update the highest profit
+			maxProfit = potentialProfit;
+			// Update the highest price to sell
+			priceMaxToSell = prices[i];
+			foundNewMax = true;
+			// Update the price to buy for the maximum profit
+			priceToBuyForMaxProfit = priceMinToBuy;
+		}
+
+		logData.push({
+			"Index": i,
+			"Price": prices[i],
+			"MinPriceToBuy": priceMinToBuy,
+			"FoundNewMin": foundNewMin ? '🔽' : '',
+			"priceMaxToSell": priceMaxToSell,
+			"FoundNewMax": foundNewMax ? '🔼' : '',
+			"PotentialProfit": potentialProfit,
+		});
+	}
+
+	// Display the table with all the logged actions
+	console.log("🔍 Price Comparisons and Profit Calculations:");
+	console.table(logData);
+
+	// Display the results
+	testMessage(prices, priceToBuyForMaxProfit, priceMaxToSell, maxProfit);
+
+	// If a profit has been found
+	if (maxProfit > 0) {
+		return maxProfit;
 	} else {
-		console.log("no profit possible");
 		return -1;
 	}
+}
+
+function testMessage(prices, priceToBuy, priceMaxToSell, maxProfit) {
+	console.log("📊 Prices: ", prices);
+	console.log("📉 The min price to buy for max profit:", priceToBuy);
+	console.log("📈 The max price to sell: ", priceMaxToSell);
+	console.log(`💰💰${(maxProfit > 0) ? "✅ Profit possible" : "❌ No profit possible"}:`, maxProfit);
+	console.log(`Operation: (${priceMaxToSell} - ${priceToBuy} = ${maxProfit})`);
+	console.log(`Resume: If you buy at ${priceToBuy} and sell at ${priceMaxToSell} you get ${maxProfit} profit.`);
+	console.log("");
+	console.log("");
 }
 
 // Analysis: The lowest price is 18, and the highest price after that point is 34.
