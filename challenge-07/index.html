@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -43,36 +44,36 @@
 		</p>
 
 		<code>
-				const store1 = {
-					shelf1: {
-						box1: {
-							product1: 'coca-cola',
-							product2: 'fanta',
-							product3: 'sprite'
-						},
+			const store1 = {
+				shelf1: {
+					box1: {
+						product1: 'coca-cola',
+						product2: 'fanta',
+						product3: 'sprite'
 					},
-					shelf2: {
-						box1: 'empty',
-						box2: {
-							product1: 'trousers',
-							product2: 't-shirt' // <- It's here!
-						},
+				},
+				shelf2: {
+					box1: 'empty',
+					box2: {
+						product1: 'trousers',
+						product2: 't-shirt' // <- It's here!
 					},
-				};
+				},
+			};
 
-				contains(store1, 't-shirt'); // true
+			contains(store1, 't-shirt'); // true
 
-				const store2 = {
-					boot: {
-						bottom: {
-							'object': 'cd-rom',
-							'other-object': 'diskette',
-							'other-think': 'remote control'
-						},
+			const store2 = {
+				boot: {
+					bottom: {
+						'object': 'cd-rom',
+						'other-object': 'diskette',
+						'other-think': 'remote control'
 					},
-				};
+				},
+			};
 
-				contains(store2, 'gameboy'); // false
+			contains(store2, 'gameboy'); // false
 		</code>
 
 		<p>
@@ -87,13 +88,14 @@
 		</h2>
 
 		<code>
-				export default function contains(store, product) {
-					// And don't forget to share your solution on social media!
-					
-					return false
-				}
+			export default function contains(store, product) {
+				// And don't forget to share your solution on social media!
+				
+				return false
+			}
 		</code>
 
 		<script src="js/script.js"></script>
 	</body>
+
 </html>
