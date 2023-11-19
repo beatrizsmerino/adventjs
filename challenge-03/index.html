@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Challenge 03 | The Grinch wants to ruin Christmas</title>
+		<link rel="stylesheet" href="../assets/css/styles.css">
 	</head>
 
 	<body>
@@ -31,7 +33,7 @@
 
 		<p>
 			The letters are a string of text including gifts and parentheses
-			'()'.
+			<code>()</code>.
 		</p>
 
 		<p>
@@ -40,8 +42,8 @@
 		</p>
 
 		<p>
-			But watch out! Because the Grinch has left braces '{' and square
-			brackets '[' inside the parentheses that <strong>make them invalid</strong>.
+			<strong>But watch out!</strong> Because the Grinch has left braces <code>{</code> and square
+			brackets <code>[</code> inside the parentheses that <strong>make them invalid</strong>.
 			Luckily he has only left them in the middle of the parentheses...
 		</p>
 
@@ -49,21 +51,19 @@
 			Examples:
 		</p>
 
-		<em>
-			<pre>
-				"bike car (ball) bike car toy"; // -> ✅
-				"(doll) console bike"; // ✅
+		<code>
+			"bike car (ball) bike car toy"; // -> ✅
+			"(doll) console bike"; // ✅
 
-				"bike car (ball bike car"; // -> ❌
-				"toy (bike [car) bike car ball"; // -> ❌
-				"(toy {) bike"; // -> ❌
-				"() bike"; // ❌
-			</pre>
-		</em>
+			"bike car (ball bike car"; // -> ❌
+			"toy (bike [car) bike car ball"; // -> ❌
+			"(toy {) bike"; // -> ❌
+			"() bike"; // ❌
+		</code>
 
 		<p>
 			Create a function that, by passing it the text of the letter,
-			returns 'true' if it is valid and 'false' if it is not. And put an
+			returns <code>true</code> if it is valid and <code>false</code> if it is not. And put an
 			end to the Grinch's mischief!
 		</p>
 
@@ -71,15 +71,14 @@
 			Complete the challenge
 		</h2>
 
-		<em>
-			<pre>
-				export default function isValid(letter) {
-					// Don't let the Grinch win!
-					return true;
-				}
-			</pre>
-		</em>
+		<code>
+			export default function isValid(letter) {
+				// Don't let the Grinch win!
+				return true;
+			}
+		</code>
 
 		<script src="js/script.js"></script>
 	</body>
+
 </html>

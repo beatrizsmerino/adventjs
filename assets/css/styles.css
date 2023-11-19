@@ -1,0 +1,17 @@
+html {
+	font-family: "Courier New", Courier, monospace;
+}
+
+code {
+	white-space: pre-wrap;
+	font-style: italic;
+	color: darkseagreen;
+	font-weight: 900;
+}
+
+p code {
+	padding: 0.2em 0.5em;
+	color: white;
+	border-radius: 0.4rem;
+	background-color: darkseagreen;
+}

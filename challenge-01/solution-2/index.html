@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Challenge 01 | Counting sheep to sleep</title>
+		<link rel="stylesheet" href="../../assets/css/styles.css">
 	</head>
 
 	<body>
@@ -27,43 +29,39 @@
 
 		<p>
 			Consider a list/array of sheep. Each has a name and a color. Make a
-			function that returns a list of all sheep that are 'red'
+			function that returns a list of all sheep that are <code>red</code>
 			<strong>and also</strong> have a name containing both the letters
-			'n' AND 'a', regardless of order, capitalization or spaces.
+			<code>n</code> AND <code>a</code>, regardless of order, capitalization or spaces.
 		</p>
 
 		<p>
 			For example, if we have the sheep:
 		</p>
 
-		<em>
-			<pre>
-				const sheepList = [
-					{ name: "Noa", color: "blue" },
-					{ name: "Euge", color: "red" },
-					{ name: "Navidad", color: "red" },
-					{ name: "Ki Na Ma", color: "red" },
-				];
-			</pre>
-		</em>
+		<code>
+			const sheepList = [
+				{ name: "Noa", color: "blue" },
+				{ name: "Euge", color: "red" },
+				{ name: "Navidad", color: "red" },
+				{ name: "Ki Na Ma", color: "red" },
+			];
+		</code>
 
 		<p>
 			When the method is executed it should return the following:
 		</p>
 
-		<em>
-			<pre>
-				const sheepFiltered = countSheep(sheepList);
-				console.log(sheepFiltered);
-				// [
-				// 	{ name: 'Navidad', color: 'red' },
-				// 	{ name: 'Ki Na Ma', color: 'red' }
-				// ]
-			</pre>
-		</em>
+		<code>
+			const sheepFiltered = countSheep(sheepList);
+			console.log(sheepFiltered);
+			// [
+			// 	{ name: 'Navidad', color: 'red' },
+			// 	{ name: 'Ki Na Ma', color: 'red' }
+			// ]
+		</code>
 
 		<p>
-			Remember. <strong>It must contain both letters 'a' and 'n' in the name.</strong>
+			Remember. <strong>It must contain both letters <code>a</code> and <code>n</code> in the name.</strong>
 			Do not count sheep that have only one of the letters, they must have both.
 		</p>
 
@@ -71,15 +69,14 @@
 			Complete the challenge
 		</h2>
 
-		<em>
-			<pre>
-				export default function countSheep(sheepList) {
-					// here your magic
-					return sheepList;
-				}
-			</pre>
-		</em>
+		<code>
+			export default function countSheep(sheepList) {
+				// here your magic
+				return sheepList;
+			}
+		</code>
 
 		<script src="js/script.js"></script>
 	</body>
+
 </html>
