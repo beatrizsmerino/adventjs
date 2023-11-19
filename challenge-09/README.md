@@ -45,3 +45,5 @@ export default function groupBy(collection, it) {
 	return {};
 }
 ```
+
+[Solution](./js/script.js)
