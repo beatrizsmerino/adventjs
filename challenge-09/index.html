@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Challenge 09 | Automatically grouping things together</title>
+		<link rel="stylesheet" href="../assets/css/styles.css">
+	</head>
+
+	<body>
+		<h1>
+			<a href="https://adventjs.dev/challenges/09" target="_blank">
+				Challenge 09:<br>
+				Automatically grouping things together
+			</a>
+		</h1>
+
+		<p>
+			We have a lot of boxes in the gift factory... and if we don't somehow automate this mess.... We might run
+			out of Christmas!
+		</p>
+
+		<h2>
+			Description
+		</h2>
+
+		<p>
+			At Santa's factory 🎅 the special day is approaching... and we still have a lot of things to tell. 😅
+		</p>
+
+		<p>
+			Luckily <strong>Mark Zucktheelf</strong> 🧝 has come up with a function that allows us to group an array, which can be of values or objects, through a function or a property.
+		</p>
+
+		<p>
+			He brings us a bunch of <strong>examples</strong>:
+		</p>
+
+		<code>
+			groupBy([6.1, 4.2, 6.3], Math.floor) // { 6: [6.1, 6.3], 4: [4.2] }
+			groupBy(['one', 'two', 'three'], 'length') // { 3: ['one', 'two'], 5: ['three'] }
+			groupBy([{age: 23}, {age: 24}], 'age') // { 23: [{age: 23}], 24: [{age: 24}] }
+
+			groupBy(
+			[1397639141184, 1363223700000],
+			timestamp => new Date(timestamp).getFullYear()
+			)
+			// { 2013: [1363223700000], 2014: [1397639141184] }
+
+			groupBy([
+			{ title: 'JavaScript: The Good Parts', rating: 8 },
+			{ title: 'Aprendiendo Git', rating: 10 },
+			{ title: 'Clean Code', rating: 9 },
+			], 'rating')
+			// { 8: [{ title: 'JavaScript: The Good Parts', rating: 8 }],
+			//   9: [{ title: 'Clean Code', rating: 9 }],
+			//   10: [{ title: 'Aprendiendo Git', rating: 10 }] }
+		</code>
+
+		<p>
+			As you can see, the <code>groupBy</code> function receives a collection (array) and a function or a property, and returns an object with keys that are the values of the executed function passing as argument each element or of the property for each element. Then the values are an array of the values that have the same key.
+		</p>
+
+		<p>
+			The difficulty of the challenge is more in <strong>understanding</strong> the function than in the <strong>implementation</strong>. Good luck.
+		</p>
+
+		<code>
+			export default function groupBy(collection, it) {
+				// ¡No olvides compartir tu solución en redes!
+				return {}
+			}
+		</code>
+
+		<script src="js/script.js"></script>
+	</body>
+
+</html>
