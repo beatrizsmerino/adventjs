@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Challenge 07 | Searching the store</title>
+		<link rel="stylesheet" href="../assets/css/styles.css">
 	</head>
 
 	<body>
@@ -30,7 +32,7 @@
 		</p>
 
 		<p>
-			We are going to create a `contains` function that receives two
+			We are going to create a <code>contains</code> function that receives two
 			parameters: an object that defines the store and the product we are
 			looking for.
 		</p>
@@ -41,62 +43,59 @@
 			examples:
 		</p>
 
-		<em>
-			<pre>
-				const store1 = {
-					shelf1: {
-						box1: {
-							product1: 'coca-cola',
-							product2: 'fanta',
-							product3: 'sprite'
-						},
+		<code>
+			const store1 = {
+				shelf1: {
+					box1: {
+						product1: 'coca-cola',
+						product2: 'fanta',
+						product3: 'sprite'
 					},
-					shelf2: {
-						box1: 'empty',
-						box2: {
-							product1: 'trousers',
-							product2: 't-shirt' // <- It's here!
-						},
+				},
+				shelf2: {
+					box1: 'empty',
+					box2: {
+						product1: 'trousers',
+						product2: 't-shirt' // <- It's here!
 					},
-				};
+				},
+			};
 
-				contains(store1, 't-shirt'); // true
+			contains(store1, 't-shirt'); // true
 
-				const store2 = {
-					boot: {
-						bottom: {
-							'object': 'cd-rom',
-							'other-object': 'diskette',
-							'other-think': 'remote control'
-						},
+			const store2 = {
+				boot: {
+					bottom: {
+						'object': 'cd-rom',
+						'other-object': 'diskette',
+						'other-think': 'remote control'
 					},
-				};
+				},
+			};
 
-				contains(store2, 'gameboy'); // false
-			</pre>
-		</em>
+			contains(store2, 'gameboy'); // false
+		</code>
 
 		<p>
 			Keep in mind that the shop is huge. It has different warehouses and,
 			as you have seen in the examples, each one can have different
-			organisations, **the important thing is to look for that the product
-			is in the warehouses**.
+			organisations, <strong>the important thing is to look for that the product
+			is in the warehouses</strong>.
 		</p>
 
 		<h2>
 			Complete the challenge
 		</h2>
 
-		<em>
-			<pre>
-				export default function contains(store, product) {
-					// And don't forget to share your solution on social media!
-					
-					return false
-				}
-			</pre>
-		</em>
+		<code>
+			export default function contains(store, product) {
+				// And don't forget to share your solution on social media!
+				
+				return false
+			}
+		</code>
 
 		<script src="js/script.js"></script>
 	</body>
+
 </html>

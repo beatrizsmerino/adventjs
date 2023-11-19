@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Challenge 02 | Help the elf to list the gifts!</title>
+		<link rel="stylesheet" href="../assets/css/styles.css">
 	</head>
 
 	<body>
@@ -34,8 +36,8 @@
 		</p>
 
 		<p>
-			On top of that we noticed that some words come with a '_' in front
-			of the word, for example '_playstation', which means
+			On top of that we noticed that some words come with a <code>_</code> in front
+			of the word, for example <code>_playstation</code>, which means
 			<strong>it's crossed out and doesn't have to be counted</strong>.
 		</p>
 
@@ -44,31 +46,27 @@
 			the times it appears. For example, if we have the text:
 		</p>
 
-		<em>
-			<pre>
-				const letter = "bike car ball _playstation bike car toy";
-			</pre>
-		</em>
+		<code>
+			const letter = "bike car ball _playstation bike car toy";
+		</code>
 
 		<p>
 			When the method is executed it should return the following:
 		</p>
 
-		<em>
-			<pre>
-				const gifts = listGifts(letter);
+		<code>
+			const gifts = listGifts(letter);
 
-				console.log(gifts);
-				/*
+			console.log(gifts);
+			/*
 				{
 					bike: 2,
 					car: 2,
 					ball: 1,
 					toy: 1
 				}
-				*/
-			</pre>
-		</em>
+			*/
+		</code>
 
 		<p>
 			Please note that the tests may be more comprehensive... 😝
@@ -79,15 +77,14 @@
 			Complete the challenge
 		</h2>
 
-		<em>
-			<pre>
-				export default function listGifts(letter) {
-					// You can do it!
-					return {};
-				}
-			</pre>
-		</em>
+		<code>
+			export default function listGifts(letter) {
+				// You can do it!
+				return {};
+			}
+		</code>
 
 		<script src="js/script.js"></script>
 	</body>
+
 </html>

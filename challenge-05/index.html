@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Challenge 05 | Counting down the days for gifts</title>
+		<link rel="stylesheet" href="../assets/css/styles.css">
 	</head>
 
 	<body>
@@ -32,25 +34,23 @@
 
 		<p>
 			To help with this, let's create a function that by passing it an
-			instance of 'Date' will tell us the number of days remaining.
+			instance of <code>Date</code> will tell us the number of days remaining.
 		</p>
 
 		<p>
 			Let's see some examples:
 		</p>
 
-		<em>
-			<pre>
-				const date1 = new Date("Dec 1, 2021");
-				daysToXmas(date1); // 24
-				const date2 = new Date("Dec 24, 2021 00:00:01");
-				daysToXmas(date2); // 1
-				const date3 = new Date("Dec 24, 2021 23:59:59");
-				daysToXmas(date3); // 1
-				const date4 = new Date("December 20, 2021 03:24:00");
-				daysToXmas(date4); // 5
-			</pre>
-		</em>
+		<code>
+			const date1 = new Date("Dec 1, 2021");
+			daysToXmas(date1); // 24
+			const date2 = new Date("Dec 24, 2021 00:00:01");
+			daysToXmas(date2); // 1
+			const date3 = new Date("Dec 24, 2021 23:59:59");
+			daysToXmas(date3); // 1
+			const date4 = new Date("December 20, 2021 03:24:00");
+			daysToXmas(date4); // 5
+		</code>
 
 		<p>
 			The result has to be <strong>a integer</strong> and, as you can see,
@@ -60,42 +60,39 @@
 
 		<p>
 			<strong>But be careful!</strong> We must also indicate if the date
-			is the same day (we would return '0') or if it is a future date (we
-			would return the number of days in negative '-'):
+			is the same day (we would return <code>0</code>) or if it is a future date (we
+			would return the number of days in negative <code>-</code>):
 		</p>
 
-		<em>
-			<pre>
-				const date = new Date("Dec 25, 2021");
-				daysToXmas(date); // 0
-				const date1 = new Date("Dec 26, 2021");
-				daysToXmas(date1); // -1
-				const date2 = new Date("Dec 31, 2021");
-				daysToXmas(date2); // -6
-				const date3 = new Date("Jan 1, 2022 00:00:01");
-				daysToXmas(date3); // -7
-				const date4 = new Date("Jan 1, 2022 23:59:59");
-				daysToXmas(date4); // -7
-			</pre>
-		</em>
+		<code>
+			const date = new Date("Dec 25, 2021");
+			daysToXmas(date); // 0
+			const date1 = new Date("Dec 26, 2021");
+			daysToXmas(date1); // -1
+			const date2 = new Date("Dec 31, 2021");
+			daysToXmas(date2); // -6
+			const date3 = new Date("Jan 1, 2022 00:00:01");
+			daysToXmas(date3); // -7
+			const date4 = new Date("Jan 1, 2022 23:59:59");
+			daysToXmas(date4); // -7
+		</code>
 
 		<p>
-			By the way, the reference date to know if it is 'Dec 25, 2021'.
+			By the way, the reference date to know if it is <code>Dec 25, 2021</code>.
 		</p>
 
 		<h2>
 			Complete the challenge
 		</h2>
 
-		<em>
-			<pre>
-				export default function daysToXmas(date) {
-					// And don't forget to share your solution on social media!
-					return 0;
-				}
-			</pre>
-		</em>
+		<code>
+			export default function daysToXmas(date) {
+				// And don't forget to share your solution on social media!
+				return 0;
+			}
+		</code>
 
 		<script src="js/script.js"></script>
 	</body>
+
 </html>
