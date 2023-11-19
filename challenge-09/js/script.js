@@ -1,7 +1,35 @@
-export default function groupBy(collection, it) {
-	// Don't forget to share your solution on social networks!
-	return {};
-};
+function groupBy(collection, it) {
+	// Don't forget to share your solution on social media!
+
+	const group = {};
+	// Recording of each step
+	const log = [];
+
+	collection.forEach(item => {
+		// Determine the key (either by executing the function or accessing the property)
+		const key = typeof it === 'function' ? it(item) : item[it];
+
+		// If the key doesn't exist yet in the 'group' object, initialize it with an empty array
+		if (!group[key]) {
+			group[key] = [];
+		}
+
+		// Add the current item to the corresponding group
+		group[key].push(item);
+
+		// Add the current status to the registry
+		log.push({
+			Item: JSON.stringify(item),
+			Key: key,
+			CurrentGroup: JSON.stringify(group[key])
+		});
+	});
+
+	// Display the log with console.table
+	console.table(log);
+
+	return group;
+}
 
 groupBy([6.1, 4.2, 6.3], Math.floor);
 // { 6: [6.1, 6.3], 4: [4.2] }
